@@ -1,0 +1,24 @@
+Yo siempre creo por cada componente
+una carpeta con su estilo css y el archivo jsx
+de manera que cada estilo está con su componente
+
+solo una cosa, que cada jsx tenga sus propias className
+porque si por ejemplo vos tenes dos componentes
+de la sigueinte manera
+
+--componente1.jsx
+<div className="container">
+    blabla
+</div>
+
+--componente2.jsx
+<div className="main">
+    <div className="container">
+    </div>
+</div>
+
+al final el compilador babel lo mete todo en un css y 
+suelen pisarse los estilos entonces los dos div 
+container comparten los mismos estilos por más que estén
+en archivos separados
+
