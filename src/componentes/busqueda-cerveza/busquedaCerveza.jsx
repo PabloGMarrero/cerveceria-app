@@ -55,7 +55,7 @@ export class BusquezaCerveza extends Component {
                             }}
                         >
                             <MenuItem value="">
-                                <em>Todos</em>
+                                <em>Todos</em>  
                             </MenuItem>
                         </Select>
                     </FormControl>

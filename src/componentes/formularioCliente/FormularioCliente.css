@@ -1,12 +1,12 @@
-.detalle-cerveza{
+.formulario-cliente{
     margin: 0 auto;
     width: 100%;
 }
 
-.bla{
+.fondo-formulario{
     background: rgba(40,40,40, 0.5)
 }
 
-.bla2{
+.fondo-formulario-2{
     background: rgba(255,0,0, 0.1);
 }
