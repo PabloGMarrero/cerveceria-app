@@ -28,7 +28,7 @@ export class BusquezaCerveza extends Component {
         search[property] = event.target.value
         this.setState({
             search: search,
-            countries: this.cervezaService.getCerveza(search)
+            cervezas: this.cervezaService.getCerveza(search)
         })
     }
 
