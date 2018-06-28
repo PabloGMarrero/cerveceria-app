@@ -1,5 +1,5 @@
 
-import { Cerveza } from "../Cerveza";
+import  Cerveza from "../cerveza";
 
 const cervezas = [
     new Cerveza('La India Pale Ale (IPA)', 'La India Pale Ale (comúnmente abreviado como IPA) es un estilo de cerveza de tradición inglesa que se caracteriza como una ale pálida y espumosa con un alto nivel del alcohol y de lúpulo. ', 6, 'ipa.jp'),

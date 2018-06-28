@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {CervezaService} from '../../domain/service/CervezaService'
-import {Cerveza} from '../../domain/Cerveza'
+import Cerveza from '../../domain/cerveza.js'
 import {ListaCervezas} from '../lista-cervezas/ListaCervezas'
 
 import TextField from '@material-ui/core/TextField'
