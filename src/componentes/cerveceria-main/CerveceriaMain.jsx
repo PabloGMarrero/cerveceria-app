@@ -25,7 +25,7 @@ export class CerveceriaMain extends Component {
                         </Toolbar>
                     </AppBar>
                     <BusquezaCerveza />
-                    <Button onClick={()=>this.props.history.push('/compra')}>Comprarrrrr</Button>
+                    <Button onClick={()=>this.props.history.push('/compra')}>Comprar</Button>
                 </div>
             </div>
         )

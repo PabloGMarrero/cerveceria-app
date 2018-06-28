@@ -2,11 +2,13 @@
 //que tenngan extensión .js
 
 export default class Cerveza{
-    constructor(titulo, descripcion, graduacion, nombreImagen){
+    constructor(titulo, descripcion, graduacion, nombreImagen, precio, cantidad){
         this.titulo = titulo,
         this.descripcion = descripcion,
         this.graduacion = graduacion,
-        this.nombreImagen = nombreImagen
+        this.nombreImagen = nombreImagen,
+        this.precio = precio
+        this.cantidad = cantidad
     }
 
     match(property, other) {
