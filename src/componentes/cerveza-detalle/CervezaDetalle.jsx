@@ -10,9 +10,9 @@ export class CervezaDetalle extends Component {
         return (
             <div className="detalle-cerveza" >
                 <Grid item xs={12} sm={6} >
-                    <Card >
-                        <CardContent  >
-                            <Grid container spacing={12} justify="center">
+                    {/* <Card className="bla3"> */}
+                        <CardContent className="bla2" >
+                            <Grid className="bla" container spacing={12} justify="center">
                                 <Grid item xs={6} sm={3}>
                                     <img className="cervezaImagen" src={'../../assets/' + this.props.cerveza.nombreImagen} alt="cerveza" />
                                 </Grid>
@@ -31,7 +31,7 @@ export class CervezaDetalle extends Component {
                                 </Grid>
                             </Grid>
                         </CardContent>
-                    </Card>
+                    {/* </Card> */}
                 </Grid>
             </div>
         )
