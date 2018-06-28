@@ -24,7 +24,7 @@ export class CervezaDetalle extends Component {
                                         {this.props.cerveza.descripcion}
                                     </p>
                                     <p>
-                                        <strong>Geaduacion Alcholica:</strong>
+                                        <strong>Graduación Alcholica:</strong>
                                         <br></br>
                                         {this.props.cerveza.graduacion} %
                                 </p>
