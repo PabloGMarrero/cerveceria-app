@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import {CervezaService} from '../../domain/service/CervezaService'
+import { CervezaService } from '../../domain/service/CervezaService'
 import Cerveza from '../../domain/cerveza.js'
-import {ListaCervezas} from '../lista-cervezas/ListaCervezas'
-
+import { ListaCervezas } from '../lista-cervezas/ListaCervezas'
+import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
 import MenuItem from '@material-ui/core/MenuItem'
 import FormControl from '@material-ui/core/FormControl'
@@ -43,7 +43,7 @@ export class BusquezaCerveza extends Component {
                             value={this.state.cervezaBuscada.titulo}
                             onChange={this.handleChange.bind(this, 'titulo')}
                         />
-                        <br/>
+                        <br />
                         <FormHelperText>Graduacion</FormHelperText>
                         <Select
                             id='group'
@@ -53,7 +53,7 @@ export class BusquezaCerveza extends Component {
                                 name: 'graduacion',
                                 id: 'graduacion'
                             }}
-                            >
+                        >
                             <MenuItem value="">
                                 <em>Todos</em>
                             </MenuItem>
@@ -61,6 +61,7 @@ export class BusquezaCerveza extends Component {
                     </FormControl>
                 </div>
                 <ListaCervezas cervezas={this.state.cervezas} />
+                
             </div>
         )
     }
