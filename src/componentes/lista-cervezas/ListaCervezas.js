@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {CervezaDetalle} from '../cerveza-detalle/CervezaDetalle'
+import './ListaCervezas.css'
 
 export class ListaCervezas extends Component {
 

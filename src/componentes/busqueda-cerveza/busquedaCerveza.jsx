@@ -9,6 +9,8 @@ import FormControl from '@material-ui/core/FormControl'
 import Select from '@material-ui/core/Select'
 import FormHelperText from '@material-ui/core/FormHelperText'
 
+import './busquedaCerveza.css'
+
 export class BusquezaCerveza extends Component {
 
     constructor(props) {
@@ -32,7 +34,7 @@ export class BusquezaCerveza extends Component {
 
     render() {
         return (
-            <div>
+            <div className="main-container-busqueda">
                 <div className="busqueda">
                     <FormControl className="formControl">
                         <FormHelperText>Tipo de Cerveza</FormHelperText>

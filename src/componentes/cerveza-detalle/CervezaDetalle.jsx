@@ -17,7 +17,7 @@ export class CervezaDetalle extends Component {
                         <CardContent  >
                             <Grid container spacing={12} justify="center">
                                 <Grid item xs={6} sm={3}>
-                                    <img className="cervezaImagen" src={'../../assets/' + this.props.cerveza.nombreImagen} alt="cervezaI" />
+                                    <img className="cervezaImagen" src={'../../assets/' + this.props.cerveza.nombreImagen} alt="cerveza" />
                                 </Grid>
                                 <Grid item xs={12} sm={9}>
                                     <h3>
