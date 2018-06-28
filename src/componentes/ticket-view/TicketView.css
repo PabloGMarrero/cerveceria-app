@@ -1,0 +1,9 @@
+.main-ticket-view{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.importe-total{
+    padding: 0 30% 0 0;
+    float: right;
+}
