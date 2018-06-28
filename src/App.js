@@ -21,7 +21,7 @@ class App extends Component {
                 <MenuIcon />
               </IconButton>
               <Typography variant="title" color="inherit" className={"cerveceria-title"}>
-                La Cerveceria
+                La Cerveceria Piola
               </Typography>
             </Toolbar>
           </AppBar>
