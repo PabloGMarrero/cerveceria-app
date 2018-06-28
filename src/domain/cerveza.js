@@ -1,7 +1,7 @@
 //los archivos de dominion convienen
 //que tenngan extensión .js
 
-export class Cerveza{
+export default class Cerveza{
     constructor(titulo, descripcion, graduacion, nombreImagen){
         this.titulo = titulo,
         this.descripcion = descripcion,

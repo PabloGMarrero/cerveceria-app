@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-import {CervezaService} from '../../domain/service/CervezaService'
-import {Cerveza} from '../../domain/Cerveza'
-import {ListaCervezas} from '../lista-cervezas/ListaCervezas'
-
+import { CervezaService } from '../../domain/service/CervezaService'
+import Cerveza from '../../domain/cerveza.js'
+import { ListaCervezas } from '../lista-cervezas/ListaCervezas'
+import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
 import MenuItem from '@material-ui/core/MenuItem'
 import FormControl from '@material-ui/core/FormControl'
 import Select from '@material-ui/core/Select'
 import FormHelperText from '@material-ui/core/FormHelperText'
+
+import './busquedaCerveza.css'
 
 export class BusquezaCerveza extends Component {
 
@@ -32,7 +34,7 @@ export class BusquezaCerveza extends Component {
 
     render() {
         return (
-            <div>
+            <div className="main-container-busqueda">
                 <div className="busqueda">
                     <FormControl className="formControl">
                         <FormHelperText>Tipo de Cerveza</FormHelperText>
@@ -41,7 +43,7 @@ export class BusquezaCerveza extends Component {
                             value={this.state.cervezaBuscada.titulo}
                             onChange={this.handleChange.bind(this, 'titulo')}
                         />
-                        <br/>
+                        <br />
                         <FormHelperText>Graduacion</FormHelperText>
                         <Select
                             id='group'
@@ -51,14 +53,15 @@ export class BusquezaCerveza extends Component {
                                 name: 'graduacion',
                                 id: 'graduacion'
                             }}
-                            >
+                        >
                             <MenuItem value="">
-                                <em>Todos</em>
+                                <em>Todos</em>  
                             </MenuItem>
                         </Select>
                     </FormControl>
                 </div>
                 <ListaCervezas cervezas={this.state.cervezas} />
+                
             </div>
         )
     }

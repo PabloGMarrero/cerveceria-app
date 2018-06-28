@@ -22,6 +22,15 @@
   font-size: large;
 }
 
+html{
+  background: url('./assets/main-background.jpg') no-repeat center center fixed;
+  min--webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
